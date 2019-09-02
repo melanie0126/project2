@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Latitude - Latitude Analysis Dashboard</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container-fluid">
+    <!-- row 1 has the headings needed across the page. -->
+    <div class="container-fluid">
+        <!-- row 1 has the headings needed across the page. -->
+    
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <a class="navbar-brand" href="#">Latitude</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-haspopup="true">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="row">
+                  <div class="col-md-12"> 
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="index.HTML">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="comparison.html">Comparison</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="Toggle navigation"> 
+                      Statistical Analysis
+                    </a>
+                  
+                        <div class="dropdown-menu show" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="Temperature.html">Max Temperature</a>
+                            <a class="dropdown-item" href="Humidity.html">Humidity</a>
+                            
+                            <a class="dropdown-item" href="Cloudiness.html">Cloudiness</a>
+                            <a class="dropdown-item" href="Windspeed.html">Windspeed</a>
+                        </div>
+                  
+                  </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+              </div>
+          
+          </div>
+        </div>
+        </nav>
+    <!-- row 2 has the Summary. -->
+    <h1> Latitude vs Cloudiness
+    </h1>
+     
+    <p>
+             This plot contains a plot of Cloudiness for 500 cities across the globe with different latitudes.
+    </p>
+        
+     <div class="row">
+             <div class="col-md-8">
+                 <article>
+                     <a target="_blank" href="..\Images\latvscloud.png">
+                     <img src="..\Images\latvscloud.png" alt="Latitude vs Cloudiness" width ="80%">
+                     </a>
+                 </article>
+             </div>
+             <div class="col-md-4">
+             </div>
+     </div>
+	</div>
+</body>
+</html>
+  
